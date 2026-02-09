@@ -1,4 +1,4 @@
-FROM public.ecr.aws/lambda/python:3.14
+FROM --platform=linux/arm64 public.ecr.aws/lambda/python:3.14-arm64
 
 COPY requirements.txt ${LAMBDA_TASK_ROOT}/
 RUN pip install --no-cache-dir -r requirements.txt
