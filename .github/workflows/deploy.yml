@@ -6,7 +6,7 @@ on:
 
 env:
   AWS_REGION: ap-northeast-2
-  ECR_REPOSITORY: choon-stock/analysis-report
+  ECR_REPOSITORY: choon-stock/report-mailer
 
 permissions:
   id-token: write
